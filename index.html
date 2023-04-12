@@ -5,39 +5,95 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-        BEAR 
-        </title>
+        <title> BEAR </title>
+        <!--LINK BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+        crossorigin="anonymous">
         <!-- Link CSS-->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="gridIndex">
-            <header>
-                <!--Titulo-->
-                <!-- LOGO -->
-                <h1 class="titulo">BEAR <img class="mediana" src="img/bear_logo-removebg-preview.png" alt="logo bear"></h1>
-                <!--NAV-->
-                <nav class="buscador">
-                    <!-- Etiquetas de enlace -->
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="pages/quienes-somos.html">Quienes somos?</a></li>
-                        <li><a href="pages/productos.html">Productos</a></li>
-                        <li><a href="pages/galeriaBear.html">Galería de fotos</a></li>
-                        <li><a href="pages/preguntas.html">Preguntas Frecuentes</a></li>
-                        <li><a href="pages/contacto.html">Contacto</a></li>
-                        <!-- Enlaces absolutos -->
-                        <li><a href="https://www.instagram.com/bear__uy/" target=" _blank">Instagram</a></li>
-                    </ul>
-                </nav>
+        <div class="container-fluid">
+            <header class="row">
+                <div class="col-lg-12 col-md-12">
+                    <nav class="navbar navbar-dark bg-dark fixed-top">
+                        <a class="navbar-brand" href="#">BEAR</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">BEAR</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/quienes-somos.html">Quienes somos?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/galeriaBear.html">Galería de fotos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/preguntas.html">Preguntas Frecuentes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                                </li>
+                            </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </header>
-            <main>
-                <img id=fotoIndex src="img/IMG_0483.jpeg" alt="foto">
+            <main class="row">
+                <div class="col-lg-12 col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/IMG_0483.jpeg" class="d-block w-100" alt="fotoIndex">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img-2/Y7D_1969-30.jpg" class="d-block w-100" alt="fotoIndex2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img-2/Y7D_2134-78.jpg" class="d-block w-100" alt="fotoIndex3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
             </main>
-            <footer class="piedepagina">
+            <footer class="row piedepagina">
                 @BEAR_UY
             </footer>
         </div>
+        <!--LINK JS BOOTSTRAP-->
+        <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+        crossorigin="anonymous"></script>
     </body>
 
 </html>
