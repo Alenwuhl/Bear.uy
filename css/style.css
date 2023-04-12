@@ -81,6 +81,7 @@ h3{
   margin-bottom: 10px;
 }
 /*FORMULARIO DE PRODUCTOS*/
+.bottom-buffer { margin-bottom:20px; }
 .formProductos{
   display: flex;
   flex-direction: column;
