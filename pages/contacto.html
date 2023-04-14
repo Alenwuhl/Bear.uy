@@ -14,24 +14,44 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="gridIndex">
-            <header>
-                <!--Titulo-->
-                <h1 class="titulo">BEAR <img class="mediana" src="../img/bear_logo-removebg-preview.png" alt="logo bear"></h1>
-                <!-- NAV-->
-                <nav class="buscador">
-                    <ul>
-                        <!-- Etiquetas de enlace -->
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../pages/quienes-somos.html">Quienes somos?</a></li>
-                        <li><a href="../pages/productos.html">Productos</a></li>
-                        <li><a href="../pages/galeriaBear.html">Galería de fotos</a></li>
-                        <li><a href="../pages/preguntas.html">Preguntas Frecuentes</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <!-- Enlaces absolutos -->
-                        <li><a href="https://www.instagram.com/bear__uy/" target=" _blank">Instagram</a></li>
-                    </ul> 
-                </nav>
+        <div class="container-fluid">
+            <header class="row">
+                <div class="col-lg-12 col-md-12"></div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">BEAR</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">BEAR</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="quienes-somos.html">Quienes somos?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="productos.html">Productos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="galeriaBear.html">Galería de fotos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </header>
             <main class="mainContacto">
                 <h2>CONTACTO</h2>
