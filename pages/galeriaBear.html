@@ -10,6 +10,8 @@
      rel="stylesheet" 
      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
      crossorigin="anonymous">
+     <!-- Link AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK CSS-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -37,7 +39,7 @@
                                     <a class="nav-link" href="quienes-somos.html">Quienes somos?</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pages/productos.html">Productos</a>
+                                    <a class="nav-link" href="productos.html">Productos</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="galeriaBear.html">Galería de fotos</a>
@@ -72,7 +74,7 @@
                     <img src="../img-3/IMG_0322.jpeg" alt="Image 35">
                     <img src="../img-3/IMG_0497.jpeg" alt="Image 36">
                 </div>
-            <h4>Buzos:</h4>
+            <h4 id="idBuzos"> Buzos:</h4>
             <div class="gallery">
                 <img src="../img-2/Y7D_2087-61.jpg" alt="Image 1">
                 <img src="../img-2/Y7D_1990-38.jpg" alt="Image 2">
@@ -90,7 +92,7 @@
                 <img src="../img-2/Y7D_2110-69.jpg" alt="Image 14">
                 <img src="../img-2/Y7D_2069-57.jpg" alt="Image 15">
             </div>
-            <h4>Remeras XL:</h4>
+            <h4 id="idRemeras">Remeras XL:</h4>
                 <div class="gallery">
                 <img src="../img-3/foto1.jpg" alt="Image 16">
                 <img src="../img-3/foto2.jpg" alt="Image 17">
@@ -121,5 +123,10 @@
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
 crossorigin="anonymous"></script>
+<!--LINK JS AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

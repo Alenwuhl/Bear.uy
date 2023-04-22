@@ -10,6 +10,8 @@
     rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
     crossorigin="anonymous">
+    <!-- Link AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- Link CSS-->
 <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -64,7 +66,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up">
                     <p class="parrafo">¡Hola, gracias por llegar a esta ventana!</p>
                     <p class="parrafo">
                         Somos una marca de diseño nacional, todas nuestras prendas son hechas con producción local. 
@@ -78,8 +80,8 @@
                         Proyecto fundado en julio de 2021. Día a día estamos convencidos y capacitándonos para una construcción constante a futuro. 
                     </p>      
                 </div>
-                <div class="col-lg-6">
-                    <div class="raw" style="display: flex">
+                <div class="col-lg-6 col-md-12">
+                    <div class="raw" style="display: flex" data-aos="fade-up">
                         <div class="col-lg-6 col-md-12 shrink">
                             <img  class="grande" src="../img/IMG_0311.jpeg" alt="foto 1">
                         </div>
@@ -87,7 +89,7 @@
                             <img  class="grande" src="../img/IMG_0391.jpeg" alt="foto 2">
                         </div>
                     </div>
-                    <div class="raw" style="display: flex">
+                    <div class="raw" style="display: flex" data-aos="fade-up"> 
                         <div class="col-lg-6 col-md-12 shrink">
                             <img  class="grande" src="../img/IMG_7708.JPG" alt="foto 3">
                         </div>
@@ -109,10 +111,15 @@
             </nav>
         </footer>
     </div>
-    <!--LINK JS BOOTSTRAP-->
-    <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
-    crossorigin="anonymous"></script>
+<!--LINK JS BOOTSTRAP-->
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+crossorigin="anonymous"></script>
+<!--LINK JS AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 </html>
