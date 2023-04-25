@@ -88,4 +88,13 @@
       align-items: center;
       padding: 20px;
     }
+      .carousel-item:nth-child(1) img {
+        content: url(../img-2/Y7D_1972-31.jpg);
+      }
+      .carousel-item:nth-child(2) img {
+        content: url(../img/IMG_7891.JPG);
+      }
+      .carousel-item:nth-child(3) img {
+        content: url(../img-2/Y7D_1923-14.jpg);
+      }   
     }
