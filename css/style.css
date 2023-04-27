@@ -10779,7 +10779,6 @@ h3, .h3 {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
-  width: 60%;
 }
 
 .formContacto {
@@ -10956,7 +10955,7 @@ h4, .h4 {
     height: auto;
   }
   /*SUBTITULO. POR EJEMPLO: "QUIENES SOMOS"*/
-  h2, .h2 {
+  h1, .h1 {
     color: black;
     font-size: 60px;
     font-family: cursive;
@@ -11023,6 +11022,10 @@ h4, .h4 {
   .formProductos {
     padding: 25px;
   }
+  .indexMobile {
+    visibility: hidden;
+    display: none;
+  }
 }
 /*FORMATO MOBILE*/
 @media (max-width: 768px) {
@@ -11045,7 +11048,7 @@ h4, .h4 {
     height: 50px;
   }
   /*TITULO SECUNDARIO*/
-  h2, .h2 {
+  h1, .h1 {
     color: black;
     font-size: 40px;
     font-family: cursive;
@@ -11112,6 +11115,19 @@ h4, .h4 {
     text-align: center;
     align-items: center;
     padding: 20px;
+  }
+  .carousel-item:nth-child(1) img {
+    content: url(../img-2/Y7D_1972-31.jpg);
+  }
+  .carousel-item:nth-child(2) img {
+    content: url(../img/IMG_7891.JPG);
+  }
+  .carousel-item:nth-child(3) img {
+    content: url(../img-2/Y7D_1923-14.jpg);
+  }
+  .indexDesktop {
+    visibility: hidden;
+    display: none;
   }
 }
 
