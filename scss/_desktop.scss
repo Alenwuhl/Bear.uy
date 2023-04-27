@@ -8,7 +8,7 @@
       color: rgb(133, 64, 14);
       font-size: 100px;
       font-family: cursive;
-      background-color: rgb(204, 151, 90);
+      background-color: $colorPricipal;
       text-align: center;
       margin-top: 10px;
       margin-bottom: 20px;
@@ -32,8 +32,8 @@
     margin: 10px;
   }
   a:hover {
-    box-shadow: inset 300px 0 0 0 rgb(204, 151, 90);
-    color: white;
+    box-shadow: inset 300px 0 0 0 $colorPricipal;
+    color: $colorBlanco;
     }
   /*FOTOS INDEX*/
   #fotoIndex{
@@ -79,7 +79,7 @@
   /*PARRAFO DE QUIENES SOMOS*/
   /*PARRAFOS*/
   .parrafo{
-    color: black;
+    color: $colorNegro;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
