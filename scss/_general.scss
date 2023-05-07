@@ -155,7 +155,7 @@
   .piedepagina{
     color: $colorNegro;
     font-size: 20px;
-    font-family: cursive;
+    font-family: $fuenteFooter;
     text-align: end;
     background-color: $colorPricipal;
   }
@@ -165,4 +165,6 @@
     text-align: center;
     text-transform: capitalize;
   }
-  
+  .social-icon {
+    color: $colorPricipal;
+  }

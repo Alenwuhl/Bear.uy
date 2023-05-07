@@ -628,8 +628,6 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
 }
@@ -10901,7 +10899,7 @@ label {
 .piedepagina {
   color: #333;
   font-size: 20px;
-  font-family: cursive;
+  font-family: Calibri;
   text-align: end;
   background-color: rgb(204, 151, 90);
 }
@@ -10913,6 +10911,10 @@ h4, .h4 {
   text-transform: capitalize;
 }
 
+.social-icon {
+  color: rgb(204, 151, 90);
+}
+
 /* FORMATO DESKTOP */
 @media (min-width: 769px) {
   header footer {
@@ -10922,7 +10924,7 @@ h4, .h4 {
   .titulo {
     color: rgb(133, 64, 14);
     font-size: 100px;
-    font-family: cursive;
+    font-family: Serif;
     background-color: rgb(204, 151, 90);
     text-align: center;
     margin-top: 10px;
@@ -10945,8 +10947,11 @@ h4, .h4 {
     padding: 10px;
     margin: 10px;
   }
-  a:hover {
+  header a:hover {
     box-shadow: inset 300px 0 0 0 rgb(204, 151, 90);
+    color: #ffffff;
+  }
+  footer a:hover {
     color: #ffffff;
   }
   /*FOTOS INDEX*/
@@ -10958,7 +10963,7 @@ h4, .h4 {
   h1, .h1 {
     color: black;
     font-size: 60px;
-    font-family: cursive;
+    font-family: Serif;
     text-align: center;
   }
   /* GRID QUIENES SOMOS */
@@ -11038,7 +11043,7 @@ h4, .h4 {
   .titulo {
     color: rgb(133, 64, 14);
     font-size: 60px;
-    font-family: cursive;
+    font-family: Serif;
     text-align: center;
     margin: 20px;
   }
@@ -11051,7 +11056,7 @@ h4, .h4 {
   h1, .h1 {
     color: black;
     font-size: 40px;
-    font-family: cursive;
+    font-family: Serif;
     text-align: center;
   }
   /*NAV*/

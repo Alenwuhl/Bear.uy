@@ -628,8 +628,6 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
 }
@@ -10717,6 +10715,424 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+/* INDEX */
+/* GRID INDEX */
+.gridIndex {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto;
+}
+
+/*COLOR DE FONDO*/
+body {
+  background-color: #ffffff;
+}
+
+/*ENLACES*/
+a {
+  box-shadow: inset 0 0 0 0 rgb(204, 151, 90);
+  color: rgb(204, 151, 90);
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+/*BOTONES DE FORMULARIO*/
+input[type=button] {
+  background-color: rgb(204, 151, 90);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(204, 151, 90);
+}
+
+/*PREGUNTAS FRECUENTES*/
+h3, .h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grande {
+  width: 100%;
+  height: auto;
+  padding: 0px 20px 20px 20px;
+}
+
+/*CONTACTO*/
+.mainContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formContacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto input[type=text] {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #333;
+  margin-bottom: 10px;
+}
+
+/*ESPACIO "CONSULTA" DENTRO DEL FORMULARIO*/
+.textareaconsulta {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #333;
+  resize: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/*FORMULARIO DE PRODUCTOS*/
+.bottom-buffer {
+  margin-bottom: 20px;
+}
+
+.formProductos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /*grid-template-columns: auto 1fr;
+
+  align-items: center;*/
+}
+
+label {
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+/*SELECCIONAR PRODUCTOS*/
+.mainProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+}
+
+.productos select {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.productos h3, .productos .h3 {
+  text-align: center;
+}
+
+.productos input {
+  align-content: center;
+}
+
+.productos li {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.select50 {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.labelCentrado {
+  text-align: center;
+}
+
+/*CONTENEDOR DE IMAGENES DE GALERÍA */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* ESTILO D EIMAGENES DE GALERÍA*/
+.gallery img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+/*FOOTER*/
+.piedepagina {
+  color: #333;
+  font-size: 20px;
+  font-family: Calibri;
+  text-align: end;
+  background-color: rgb(204, 151, 90);
+}
+
+h4, .h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.social-icon {
+  color: rgb(204, 151, 90);
+}
+
+/* FORMATO DESKTOP */
+@media (min-width: 769px) {
+  header footer {
+    display: flex;
+  }
+  /* TITULO "BEAR" */
+  .titulo {
+    color: rgb(133, 64, 14);
+    font-size: 100px;
+    font-family: Serif;
+    background-color: rgb(204, 151, 90);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* LOGO BEAR*/
+  img.mediana {
+    width: 100px;
+    height: 100px;
+  }
+  /*NAV*/
+  .buscador {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+  }
+  .buscador li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+  }
+  header a:hover {
+    box-shadow: inset 300px 0 0 0 rgb(204, 151, 90);
+    color: #ffffff;
+  }
+  footer a:hover {
+    color: #ffffff;
+  }
+  /*FOTOS INDEX*/
+  #fotoIndex {
+    width: 100%;
+    height: auto;
+  }
+  /*SUBTITULO. POR EJEMPLO: "QUIENES SOMOS"*/
+  h1, .h1 {
+    color: black;
+    font-size: 60px;
+    font-family: Serif;
+    text-align: center;
+  }
+  /* GRID QUIENES SOMOS */
+  .gridQs {
+    display: grid;
+    grid-template-areas: "tituloSec tituloSec" "parrafo50 imagenes50";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+  }
+  .tituloSec {
+    grid-area: tituloSec;
+  }
+  .parrafo50 {
+    grid-area: parrafo50;
+  }
+  .imagenes50 {
+    grid-area: imagenes50;
+  }
+  .imagenes4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: auto;
+  }
+  /*FOTOS DE QUIENES SOMOS*/
+  .shrink img {
+    transition: 1s ease;
+  }
+  .shrink img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+  }
+  /*PARRAFO DE QUIENES SOMOS*/
+  /*PARRAFOS*/
+  .parrafo {
+    color: #333;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    margin-block-start: 0.5em;
+  }
+  .parrafo50 {
+    grid-column: 1/2;
+    width: 99%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* EFECTO PARA IMAGEN DE GALERÍA */
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  ul {
+    list-style: none;
+    list-style-type: none;
+  }
+  .formProductos {
+    padding: 25px;
+  }
+  .indexMobile {
+    visibility: hidden;
+    display: none;
+  }
+}
+/*FORMATO MOBILE*/
+@media (max-width: 768px) {
+  header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* TITULO "BEAR" */
+  .titulo {
+    color: rgb(133, 64, 14);
+    font-size: 60px;
+    font-family: Serif;
+    text-align: center;
+    margin: 20px;
+  }
+  /* LOGO BEAR*/
+  img.mediana {
+    width: 50px;
+    height: 50px;
+  }
+  /*TITULO SECUNDARIO*/
+  h1, .h1 {
+    color: black;
+    font-size: 40px;
+    font-family: Serif;
+    text-align: center;
+  }
+  /*NAV*/
+  .buscador {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  /*LISTA*/
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  /*FOTOS INDEX*/
+  #fotoIndex {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  /*QUIENES SOMOS*/
+  .gridQs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenes4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  /*PARRAFOS*/
+  .parrafo {
+    color: #333;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    margin-block-start: 0.5em;
+  }
+  .mainProductos {
+    padding: 20px;
+  }
+  .productos {
+    width: 100%;
+  }
+  .mainContacto {
+    padding: 20px;
+  }
+  .contacto {
+    width: 100%;
+  }
+  .mainPreguntas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .carousel-item:nth-child(1) img {
+    content: url(../img-2/Y7D_1972-31.jpg);
+  }
+  .carousel-item:nth-child(2) img {
+    content: url(../img/IMG_7891.JPG);
+  }
+  .carousel-item:nth-child(3) img {
+    content: url(../img-2/Y7D_1923-14.jpg);
+  }
+  .indexDesktop {
+    visibility: hidden;
+    display: none;
   }
 }
 

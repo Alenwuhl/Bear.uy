@@ -9,7 +9,7 @@
     .titulo{
       color: rgb(133, 64, 14);
       font-size: 60px;
-      font-family: cursive;
+      font-family: $fuenteTitulo;
       text-align: center;
       margin: 20px;
     }
@@ -22,7 +22,7 @@
     h1{
       color: black;
       font-size: 40px;
-      font-family: cursive;
+      font-family: $fuenteTitulo;
       text-align: center;
     }
     /*NAV*/

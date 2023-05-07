@@ -7,7 +7,7 @@
     .titulo{
       color: rgb(133, 64, 14);
       font-size: 100px;
-      font-family: cursive;
+      font-family: $fuenteTitulo;
       background-color: $colorPricipal;
       text-align: center;
       margin-top: 10px;
@@ -31,9 +31,12 @@
     padding: 10px;
     margin: 10px;
   }
-  a:hover {
+  header a:hover {
     box-shadow: inset 300px 0 0 0 $colorPricipal;
     color: $colorBlanco;
+    }
+    footer a:hover {
+      color: $colorBlanco;
     }
   /*FOTOS INDEX*/
   #fotoIndex{
@@ -44,7 +47,7 @@
   h1{
     color: black;
     font-size: 60px;
-    font-family: cursive;
+    font-family: $fuenteTitulo;
     text-align: center;
   }
   /* GRID QUIENES SOMOS */
