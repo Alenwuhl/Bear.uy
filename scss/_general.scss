@@ -13,7 +13,6 @@
   a {
   box-shadow: inset 0 0 0 0 $colorPricipal;
   color: $colorPricipal;
-  margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   text-decoration: none;
@@ -167,4 +166,6 @@
   }
   .social-icon {
     color: $colorPricipal;
+    list-style: none;
+    list-style-type: none;
   }

@@ -663,15 +663,11 @@ progress {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
 
@@ -10734,7 +10730,6 @@ body {
 a {
   box-shadow: inset 0 0 0 0 rgb(204, 151, 90);
   color: rgb(204, 151, 90);
-  margin: 0 -0.25rem;
   padding: 0 0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   text-decoration: none;
@@ -10913,6 +10908,8 @@ h4, .h4 {
 
 .social-icon {
   color: rgb(204, 151, 90);
+  list-style: none;
+  list-style-type: none;
 }
 
 /* FORMATO DESKTOP */
